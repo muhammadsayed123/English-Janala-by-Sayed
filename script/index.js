@@ -23,7 +23,7 @@ const loadLevelWord=(id)=>{
     .then(data=>{
         
         removeActive()
-        alert("অবশ্যই দাঁড়ি পাল্লায় ভোট টা দিবেন !!!")
+        alert("Congratulations for continuous learning!")
         const clickBtn=document.getElementById(`lesson-btn-${id}`)
         // console.log(clickBtn)
         clickBtn.classList.add("active")
